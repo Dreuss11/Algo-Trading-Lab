@@ -1,4 +1,4 @@
-# 📈 Algo-Trading-Lab & AI Research
+# 📈 Algo-Trading-Lab
 
 [🇺🇸 English](#english) | [🇻🇳 Vietnamese](#vietnamese)
 
@@ -9,39 +9,43 @@
 
 Welcome to **Algo-Trading-Lab**! 👋
 
-This is a **personal research repository** documenting my journey in **Quantitative Trading** and **Artificial Intelligence**.
+This is a **personal research repository** documenting my journey in **Quantitative Trading** and **Financial Machine Learning**.
 
-This repository contains projects that I have **re-implemented, customized, and optimized** based on various technical tutorials, academic papers, and open-source resources. The goal is to deeply understand the core concepts and apply them to practical scenarios.
+This repository contains automated trading systems that I have **re-implemented, customized, and optimized** based on various technical tutorials, academic papers, and open-source resources. The goal is to deeply understand market dynamics and apply algorithmic strategies to practical scenarios.
 
 ### 🗂️ Project Structure
 
-The project is organized into main research branches:
+The project is organized into three main approaches:
 
-#### 1. 🏛️ Quantitative Trading Core
-Automated trading systems built and backtested using standard strategies:
-* **01-Technical-Analysis:** Implementation of algorithms based on technical indicators (RSI, MACD, Mean Reversion).
-* **02-Supervised-Learning:** Applying Machine Learning models (LSTM, GRU, Transformer) for financial time-series forecasting.
-* **03-Reinforcement-Learning:** Building autonomous Trading Agents (DDPG, PPO, SAC) in simulated environments (Based on Stable-Baselines3 architecture).
+#### 1. 🛠️ Technical Analysis (01-Technical-Analysis)
+Implementation of algorithms based on mathematical indicators:
+* **Trend Following:** MACD, Moving Averages strategies.
+* **Mean Reversion:** RSI, Bollinger Bands strategies.
 
-#### 2. 🎓 University Research Archives
-A collection of my academic projects and assignments, where I applied AI to solve specific problems:
-* **Natural Language Processing (NLP):** Text summarization, Sentiment analysis.
-* **Computer Vision (CV):** Object detection, ALPR systems.
-* **Optimization:** Linear programming problems.
+#### 2. 🧠 Supervised Learning (02-Supervised-Learning)
+Applying Deep Learning models for financial time-series forecasting:
+* **Models:** LSTM, GRU, Transformer.
+* **Goal:** Price prediction and Market Regime Classification.
+
+#### 3. 🤖 Reinforcement Learning (03-Reinforcement-Learning)
+Building autonomous Trading Agents in simulated environments:
+* **Core:** Single-Agent-Trader.
+* **Algorithms:** DDPG, PPO, SAC (Based on Stable-Baselines3).
 
 ### 🚀 Tech Stack
-* **Languages:** Python, C++ (MQL5)
-* **Libraries:** Pandas, NumPy, Scikit-learn, PyTorch/TensorFlow, Backtrader.
-* **Resources:** Adapted from specialized courses, library documentation, and community tutorials.
+* **Languages:** Python 3.8+, C++ (MQL5).
+* **Data Science:** Pandas, NumPy, Matplotlib.
+* **ML/DL Frameworks:** Scikit-learn, PyTorch, TensorFlow.
+* **Trading Engines:** Backtrader, vectorbt, MetaTrader 5.
 
 ### 📬 Contact
-I am always open to discussing AI and Algo Trading:
+I am always open to discussing Algo Trading strategies:
 * **Name:** La Duc Duy
 * **Email:** laducduy11@gmail.com
 * **GitHub:** https://github.com/Dreuss11
 
 ---
-*Disclaimer: The code provided here is for educational and research purposes only.*
+*Disclaimer: The code provided here is for educational and research purposes only. Trading involves significant risk.*
 
 ---
 
@@ -50,34 +54,38 @@ I am always open to discussing AI and Algo Trading:
 
 Chào mừng đến với **Algo-Trading-Lab**! 👋
 
-Đây là kho lưu trữ cá nhân (Research Lab) ghi lại quá trình **tự học, nghiên cứu và thực hành** của tôi trong lĩnh vực **Quantitative Trading** và **Artificial Intelligence**.
+Đây là kho lưu trữ cá nhân (Research Lab) ghi lại quá trình **tự học, nghiên cứu và thực hành** của tôi trong lĩnh vực **Giao dịch định lượng (Quantitative Trading)**.
 
-Repo này tập hợp các dự án tôi đã **triển khai lại (re-implement)** và **tối ưu hóa** dựa trên các tài liệu chuyên ngành, bài giảng kỹ thuật (Tutorials) và các bài báo khoa học. Mục tiêu là nắm vững kiến thức nền tảng và áp dụng vào thực tế.
+Repo này tập hợp các hệ thống giao dịch tôi đã **triển khai lại (re-implement)** và **tối ưu hóa** dựa trên các tài liệu chuyên ngành và các bài báo khoa học. Mục tiêu là nắm vững kiến thức cốt lõi và kiểm thử hiệu quả của các thuật toán trên dữ liệu thực tế.
 
 ### 🗂️ Cấu trúc dự án
 
-Dự án được tổ chức thành các nhánh nghiên cứu chính:
+Dự án được chia thành 3 hướng tiếp cận chính:
 
-#### 1. 🏛️ Quantitative Trading Core
-Các hệ thống giao dịch tự động được xây dựng và kiểm thử:
-* **01-Technical-Analysis:** Triển khai các thuật toán dựa trên chỉ báo kỹ thuật (RSI, MACD, Mean Reversion).
-* **02-Supervised-Learning:** Ứng dụng mô hình học máy (LSTM, GRU, Transformer) để dự báo chuỗi thời gian tài chính.
-* **03-Reinforcement-Learning:** Xây dựng Agent tự học giao dịch (DDPG, PPO, SAC) trong môi trường giả lập.
+#### 1. 🛠️ Phân tích kỹ thuật (01-Technical-Analysis)
+Các thuật toán dựa trên chỉ báo kỹ thuật truyền thống:
+* **Theo xu hướng:** Các chiến lược MACD, Moving Averages.
+* **Đảo chiều:** Các chiến lược RSI, Bollinger Bands.
 
-#### 2. 🎓 University Research Archives (Đồ án Đại học)
-Lưu trữ các bài tập lớn và đồ án môn học:
-* **Natural Language Processing (NLP):** Xử lý ngôn ngữ tự nhiên.
-* **Computer Vision (CV):** Thị giác máy tính.
-* **Optimization:** Các bài toán tối ưu hóa.
+#### 2. 🧠 Học có giám sát (02-Supervised-Learning)
+Ứng dụng Deep Learning để dự báo chuỗi thời gian tài chính:
+* **Mô hình:** LSTM, GRU, Transformer.
+* **Mục tiêu:** Dự báo giá và phân loại xu hướng thị trường.
+
+#### 3. 🤖 Học tăng cường (03-Reinforcement-Learning)
+Xây dựng Agent tự học giao dịch trong môi trường giả lập:
+* **Trọng tâm:** Single-Agent-Trader.
+* **Thuật toán:** DDPG, PPO, SAC, TD3, A2C (Sử dụng kiến trúc Stable-Baselines3).
 
 ### 🚀 Công nghệ sử dụng
-* **Ngôn ngữ:** Python, C++ (MQL5)
-* **Thư viện:** Pandas, NumPy, Scikit-learn, PyTorch/TensorFlow, Backtrader.
-* **Nguồn tham khảo:** Các khóa học chuyên sâu, tài liệu kỹ thuật (Documentation) và cộng đồng Open Source.
+* **Ngôn ngữ:** Python 3.8+, C++ (MQL5).
+* **Xử lý dữ liệu:** Pandas, NumPy, Matplotlib.
+* **Framework AI:** Scikit-learn, PyTorch, TensorFlow.
+* **Công cụ Backtest:** Backtrader, vectorbt, MetaTrader 5.
 
 ### 📬 Liên hệ
 Tôi luôn sẵn sàng trao đổi và học hỏi thêm về kỹ thuật:
-* **Name:** La Duc Duy
+* **Họ tên:** La Duc Duy
 * **Email:** laducduy11@gmail.com
 * **GitHub:** https://github.com/Dreuss11
 
