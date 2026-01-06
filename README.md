@@ -18,18 +18,17 @@ Repo này tập hợp các hệ thống giao dịch tôi đã **triển khai l�
 Dự án được chia thành 3 hướng tiếp cận chính:
 
 #### 1. 🛠️ Phân tích kỹ thuật (01-Technical-Analysis)
-Các thuật toán dựa trên chỉ báo kỹ thuật truyền thống:
-* **Theo xu hướng:** Các chiến lược MACD, Moving Averages.
-* **Đảo chiều:** Các chiến lược RSI, Bollinger Bands.
+Xây dựng và kiểm thử các chiến lược dựa trên chỉ báo kỹ thuật:
+* **Chiến lược ETH/USDT:** Phát triển hệ thống giao dịch tự động cho cặp Ethereum/Tether.
+* **Phương pháp:** Tối ưu hóa điểm vào/ra lệnh dựa trên sự kết hợp các chỉ báo (Moving Averages, RSI, MACD...).
 
 #### 2. 🧠 Học có giám sát (02-Supervised-Learning)
-Ứng dụng Deep Learning để dự báo chuỗi thời gian tài chính:
-* **Mô hình:** LSTM, GRU, Transformer.
-* **Mục tiêu:** Dự báo giá và phân loại xu hướng thị trường.
+Ứng dụng Deep Learning để dự báo chuỗi thời gian tài chính
+
 
 #### 3. 🤖 Học tăng cường (03-Reinforcement-Learning)
 Xây dựng Agent tự học giao dịch trong môi trường giả lập:
-* **Trọng tâm:** Single-Agent-Trader.
+* **Trọng tâm:** Single-Agent-Trader & Portfolio Management.
 * **Thuật toán:** DDPG, PPO, SAC, TD3, A2C (Sử dụng kiến trúc Stable-Baselines3).
 
 ### 🚀 Công nghệ sử dụng
@@ -63,19 +62,18 @@ This repository contains automated trading systems that I have **re-implemented,
 The project is organized into three main approaches:
 
 #### 1. 🛠️ Technical Analysis (01-Technical-Analysis)
-Implementation of algorithms based on mathematical indicators:
-* **Trend Following:** MACD, Moving Averages strategies.
-* **Mean Reversion:** RSI, Bollinger Bands strategies.
+Building and backtesting strategies based on technical indicators:
+* **ETH/USDT Strategy:** Development of an automated trading system for the Ethereum/Tether pair.
+* **Methodology:** Optimization of entry/exit points using a combination of standard indicators (MA, RSI, MACD...).
 
 #### 2. 🧠 Supervised Learning (02-Supervised-Learning)
-Applying Deep Learning models for financial time-series forecasting:
-* **Models:** LSTM, GRU, Transformer.
-* **Goal:** Price prediction and Market Regime Classification.
+Applying Deep Learning models for financial time-series forecasting
+
 
 #### 3. 🤖 Reinforcement Learning (03-Reinforcement-Learning)
 Building autonomous Trading Agents in simulated environments:
-* **Core:** Single-Agent-Trader.
-* **Algorithms:** DDPG, PPO, SAC (Based on Stable-Baselines3).
+* **Focus:** Single-Agent-Trader & Portfolio Management.
+* **Algorithms:** DDPG, PPO, SAC, TD3, A2C (Based on Stable-Baselines3).
 
 ### 🚀 Tech Stack
 * **Languages:** Python 3.8+, C++ (MQL5).
